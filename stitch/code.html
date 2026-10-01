@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>VANTA — Built for your everyday</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed": "#e5e2e1", "inverse-surface": "#2f312f", "on-surface-variant": "#444748", "on-primary": "#ffffff", "surface-container": "#efeeeb", "secondary-fixed-dim": "#cbc6b8", "tertiary-container": "#1e1b14", "surface-container-high": "#e9e8e5", "on-tertiary": "#ffffff", "surface-container-highest": "#e3e2df", "tertiary-fixed": "#e9e2d5", "on-error": "#ffffff", "tertiary": "#000000", "surface-container-lowest": "#ffffff", "background": "#faf9f6", "on-secondary-fixed-variant": "#49473c", "inverse-on-surface": "#f2f1ee", "surface-dim": "#dbdad7", "tertiary-fixed-dim": "#ccc6b9", "on-primary-fixed-variant": "#474646", "on-primary-fixed": "#1c1b1b", "on-tertiary-container": "#888378", "on-secondary-container": "#666357", "on-tertiary-fixed": "#1e1b14", "secondary-container": "#e5dfd0", "on-error-container": "#93000a", "on-surface": "#1b1c1a", "surface-tint": "#5f5e5e", "outline": "#747878", "primary-fixed-dim": "#c8c6c5", "secondary": "#625e53", "on-tertiary-fixed-variant": "#4a463d", "on-primary-container": "#858383", "error": "#ba1a1a", "surface-bright": "#faf9f6", "on-secondary": "#ffffff", "outline-variant": "#c4c7c7", "inverse-primary": "#c8c6c5", "secondary-fixed": "#e8e2d3", "surface-variant": "#e3e2df", "surface-container-low": "#f4f3f0", "primary-container": "#1c1b1b", "on-background": "#1b1c1a", "on-secondary-fixed": "#1d1c12", "surface": "#faf9f6", "primary": "#000000", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "3rem", "space-lg": "1.5rem", "margin": "2rem", "gutter": "1.5rem", "margin-lg": "4rem", "space-xs": "0.25rem", "gutter-sm": "0.75rem", "margin-sm": "1rem", "space-md": "1rem", "gutter-lg": "2.5rem", "space-sm": "0.5rem" }, "fontFamily": { "headline-lg": [ "Syne" ], "body-md": [ "Inter" ], "display-hero-mobile": [ "Syne" ], "body-sm": [ "Inter" ], "body-lg": [ "Inter" ], "headline-sm": [ "Syne" ], "label-mono": [ "Inter" ], "label-caps": [ "Inter" ], "headline-lg-mobile": [ "Syne" ], "display-hero": [ "Syne" ], "headline-md": [ "Syne" ] }, "fontSize": { "headline-lg": [ "48px", { "lineHeight": "52px", "letterSpacing": "-0.03em", "fontWeight": "700" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "display-hero-mobile": [ "44px", { "lineHeight": "48px", "letterSpacing": "-0.03em", "fontWeight": "800" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" } ], "headline-sm": [ "20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "label-mono": [ "10px", { "lineHeight": "12px", "letterSpacing": "0.08em", "fontWeight": "500" } ], "label-caps": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.12em", "fontWeight": "600" } ], "headline-lg-mobile": [ "32px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "display-hero": [ "80px", { "lineHeight": "84px", "letterSpacing": "-0.04em", "fontWeight": "800" } ], "headline-md": [ "28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 left-0 w-full z-50 bg-[#faf9f6]/90 backdrop-blur-md border-b border-[#e5e3dc]"><div class="h-20 w-full px-gutter md:px-margin lg:px-margin-lg flex items-center justify-between"><div class="flex items-center gap-space-md"><a class="flex items-center gap-3" data-path="home" href="#"><img alt="VANTA Brand Wordmark" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XGUEAAoaisuO1A1NcmxrLOQ39UMovlYtz_4yAHuFhL2pPxZsMaOp1UYGc2gjMMHqPHBjZ0G28YDocQx7-PgYgBhDGf5hr5OFA_VqBerwMV2KY5Xif-OrMiNgqj4QiHyBfwdQRjYk0SCM7EPHNxxzdQTCN3fAJCEwswMqPEbj5axsQf7MvfzC5U3nCUYoZhzYbLTOOwCNtB5LZ5N4I_e9HMzzMAglDnyh2XyINntqTu_1rnzNOHIWLlyQ"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight uppercase hidden sm:inline-block">VANTA</span></a></div><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-on-surface border-b-2 border-primary pb-0.5 font-semibold"><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="shop" href="#">Shop</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="new-arrivals" href="#">New Arrivals</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="men" href="#">Men</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="women" href="#">Women</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="accessories" href="#">Accessories</a></nav><div class="flex items-center gap-space-md"><button aria-label="Search catalog" class="text-on-surface hover:text-primary transition-colors flex items-center justify-center p-1.5" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Shopping Bag" class="relative text-on-surface hover:text-primary transition-colors flex items-center justify-center p-1.5" data-path="cart" href="#"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1 -right-1 w-4 h-4 bg-primary text-on-primary font-label-mono text-label-mono flex items-center justify-center">2</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-low">
+<div class="w-full px-gutter md:px-margin lg:px-margin-lg pt-space-lg md:pt-space-xl pb-space-xl">
+<!-- Top Micro Ticker & Sub-header -->
+<div class="flex flex-col md:flex-row md:items-center justify-between pb-space-md border-b border-[#e5e3dc] gap-space-sm">
+<div class="flex items-center gap-space-md">
+<span class="inline-block w-2 h-2 bg-primary"></span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface tracking-widest">Collection 04 / Edition 2025</span>
+<span class="text-on-surface-variant font-label-mono text-label-mono hidden sm:inline-block">// DEPT. 01 — RUNWAY &amp; STREET</span>
+</div>
+<div class="font-label-mono text-label-mono text-on-surface-variant tracking-wider flex items-center gap-space-md">
+<span>COORDINATES: 35.6762° N, 139.6503° E</span>
+<span class="w-1 h-1 bg-outline rounded-full"></span>
+<span>AUTUMN / WINTER ARCHIVE</span>
+</div>
+</div>
+<!-- Hero Visual Grid -->
+<div class="mt-space-lg grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-lg items-end">
+<!-- Visual Frame (Left 8 Cols) -->
+<div class="lg:col-span-8 relative group overflow-hidden bg-surface-container">
+<div class="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
+<img alt="VANTA High-fashion technical streetwear campaign lookbook featuring sculpted outerwear and luxury architectural sneakers in brutalist concrete interior" class="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-700 ease-out scale-100 group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVX_AhwuqJJ5C0W92KC1i1g7-M3SXzhlL03FwWPy5jXr46GAfctYE3v2yJeAE9Ec5XM0pcoQ2SRqY2IUFMm8S6Oxd6U7XGzU4x7K_8zzcmJic-lRg4BmEvV-Pi2k_xCERAukKXa21JGy6UkRvj3zMttZUWVj2YEQfQ7XQkABhu8Qu4HLPZJm71r2QDv_ttGMZeT-T90LEuiA2adTr_jdUmkCmIgGkpHocLt5Rf-i2-nLMIaZMkFiJr"/>
+<!-- Ambient Vignette & Technical Stamp -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute top-space-md left-space-md bg-surface/90 backdrop-blur-sm px-3 py-1.5 flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-mono text-label-mono text-primary uppercase tracking-widest">LIVE LOOKBOOK — SILHOUETTE 01</span>
+</div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex items-end justify-between text-on-primary">
+<div class="max-w-md">
+<span class="font-label-mono text-label-mono tracking-widest block uppercase text-primary-fixed opacity-90">Look 04.14 // Structured Nylon</span>
+<p class="font-body-sm text-body-sm text-surface-container-low hidden sm:block mt-1">Sculptural windbreakers paired with kinetic modular cargo and molded sole profile.</p>
+</div>
+<div class="font-label-mono text-label-mono px-2.5 py-1 bg-primary text-on-primary border border-outline">
+                FIG. 2025.A
+              </div>
+</div>
+</div>
+</div>
+<!-- Typography & Action Panel (Right 4 Cols) -->
+<div class="lg:col-span-4 flex flex-col justify-between self-stretch pt-space-md lg:pt-0 border-t lg:border-t-0 lg:border-l border-[#e5e3dc] lg:pl-space-lg">
+<div>
+<div class="inline-flex items-center gap-2 mb-space-sm px-2 py-0.5 bg-surface-container-highest">
+<span class="font-label-caps text-label-caps uppercase text-on-surface">Architectural Utility</span>
+</div>
+<h1 class="font-display-hero text-display-hero-mobile lg:text-headline-lg text-primary uppercase tracking-tight leading-none mb-space-md">
+              BUILT FOR<br/>YOUR<br/>EVERYDAY.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-sm mb-space-lg">
+              Essential pieces. Modern silhouettes. Made to move with you through harsh metropolitan geography and quiet spatial interludes.
+            </p>
+</div>
+<div class="space-y-3 pt-space-sm">
+<a class="w-full flex items-center justify-between bg-primary text-on-primary px-space-md py-4 font-label-caps text-label-caps uppercase hover:bg-surface-container-lowest hover:text-primary transition-colors border border-primary group" href="#new-arrivals">
+<span>Shop New Arrivals</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="w-full flex items-center justify-between bg-transparent text-on-surface px-space-md py-3.5 font-label-caps text-label-caps uppercase border border-outline hover:border-primary hover:bg-surface-container-high transition-colors" href="#flagship-campaign">
+<span>Explore KINETIC-01</span>
+<span class="material-symbols-outlined text-[18px]">south</span>
+</a>
+<div class="pt-space-md flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono">
+<span>VANTA ARCHIVE // SERIES 04</span>
+<span>LIMITED QUANTITIES</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: CURATED TICKER / EDITORIAL STATEMENT BAR -->
+<aside aria-label="Brand Announcement" class="w-full bg-surface-container-lowest border-y border-[#e5e3dc] py-3 overflow-hidden select-none">
+<div class="flex items-center whitespace-nowrap gap-space-xl font-label-caps text-label-caps tracking-widest text-on-surface uppercase animate-pulse">
+<div class="flex items-center gap-space-lg">
+<span>COMPLIMENTARY WORLDWIDE ARCHIVAL SHIPPING ON ORDERS OVER $250</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>CRAFTED IN PORTUGAL &amp; JAPAN</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>LIMITED PRODUCTION RUNS (NO MASS REPRINTS)</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>DESIGNED FOR ERGONOMIC MOVEMENT</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+</div>
+<div aria-hidden="true" class="hidden lg:flex items-center gap-space-lg">
+<span>COMPLIMENTARY WORLDWIDE ARCHIVAL SHIPPING ON ORDERS OVER $250</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>CRAFTED IN PORTUGAL &amp; JAPAN</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>LIMITED PRODUCTION RUNS</span>
+<span class="w-1.5 h-1.5 bg-primary rotate-45 inline-block"></span>
+<span>DESIGNED FOR ERGONOMIC MOVEMENT</span>
+</div>
+</div>
+</aside>
+<!-- SECTION 3: NEW ARRIVALS -->
+<section class="w-full px-gutter md:px-margin lg:px-margin-lg py-space-xl bg-surface" id="new-arrivals">
+<!-- Header Row -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between pb-space-md border-b border-[#e5e3dc] gap-space-sm mb-space-lg">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="font-label-mono text-label-mono uppercase text-on-surface-variant">CATALOG // SECTOR 01</span>
+</div>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-primary uppercase tracking-tight">NEW ARRIVALS</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">DROP 04.2 / RIGID CUTS &amp; KINETIC SILHOUETTES</p>
+</div>
+<div class="flex items-center gap-space-md">
+<a class="group flex items-center gap-2 font-label-caps text-label-caps uppercase text-on-surface hover:text-on-surface-variant transition-colors" href="#all-arrivals">
+<span>View All (24 Silhouettes)</span>
+<span class="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">east</span>
+</a>
+</div>
+</div>
+<!-- 4-Column Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter border-b border-[#e5e3dc] pb-space-xl">
+<!-- Product 1 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container-high p-4 flex items-center justify-center">
+<img alt="VANTA Kinetic-01 Low sneaker in chalk white and slate grey with sculptural geometric EVA sole" class="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACsmJAIDYBJRgsS7Atb1ljsRCP6JSlcnAk1cAHMjOosbN0W1YytxI5ZRXLbjAZwr-5xoMM1nHZS2ZxNdekq4v6ctBHg24fCvhU_22opXWozU4j9_0njgIIWx_slMxQqOv5C0_D7m5k1DyHWWOU605OfPVgcflwjC3CPW-G1Wz3o91i3jA5uvTnrAzhFea-0pbPwzxUZ3dHKVVoolF_KmRCX3Xn39COp0qIjVP0FujNcJGmGdGH1T2c"/>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors z-10" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-3 left-3 bg-primary text-on-primary font-label-mono text-label-mono px-2 py-0.5 uppercase tracking-wider">
+            Flagship
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono mb-1">
+<span>FOOTWEAR / ARCHITECTURAL</span>
+<span class="text-primary font-semibold">$340</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase tracking-tight">KINETIC-01 LOW</h3>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-[#e5e3dc]">
+<!-- Color Swatches -->
+<div aria-label="Available Colors" class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 bg-[#f4f2eb] border border-outline" title="Matte Chalk"></span>
+<span class="w-3.5 h-3.5 bg-[#7a7876] border border-outline" title="Concrete Grey"></span>
+<span class="w-3.5 h-3.5 bg-[#1c1b1b] border border-outline" title="Deep Onyx"></span>
+</div>
+<button class="font-label-caps text-label-caps uppercase text-primary hover:underline underline-offset-4" onclick="this.textContent = 'ADDED (1)';" type="button">
+              + Quick Add
+            </button>
+</div>
+</div>
+</article>
+<!-- Product 2 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container-high p-4 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial look of a luxury draped oversized heavyweight French terry hoodie in washed matte charcoal black, dropped shoulders, clean raw hem, cinematic soft lighting on off-white museum background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPaAP_nc_ExoK0b7qvuRvD1sv9d01yOBUSSHk6qzyaGjJdyFSkJxq3u6cCOWFt9QKeXgtFbUXRV8Riq857UGBS2z6fYn83aJSTrvsKTudGno3UVyjr9Zm3yaE488UcdWXm5wl3WdJpR8nXsNWKmq2Ndfs8VIZXS2wndY9k2RC-6aofoKDliLTiCbtQUpycjcZISGe-ewXWXPhJMMP4O-68UmDZ3IGV2QEnGD_0s3bEvODx3s7eqrN6"/>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors z-10" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface-container-highest text-on-surface font-label-mono text-label-mono px-2 py-0.5 uppercase tracking-wider">
+            650 GSM
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono mb-1">
+<span>HEAVYWEIGHT TERRY</span>
+<span class="text-primary font-semibold">$220</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase tracking-tight">STRUCTURAL HOODIE</h3>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-[#e5e3dc]">
+<div aria-label="Available Colors" class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 bg-[#2a2a29] border border-outline" title="Washed Black"></span>
+<span class="w-3.5 h-3.5 bg-[#d4d1c9] border border-outline" title="Mineral Stone"></span>
+</div>
+<button class="font-label-caps text-label-caps uppercase text-primary hover:underline underline-offset-4" onclick="this.textContent = 'ADDED (1)';" type="button">
+              + Quick Add
+            </button>
+</div>
+</div>
+</article>
+<!-- Product 3 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container-high p-4 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Technical modular crop bomber jacket crafted from crisp matte ballistic nylon with storm collar, articulated sleeves, and minimal YKK metal zippers in pitch raven black against gallery ivory floor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_X-Ei_FUEQolwUW2liAtPNBIbS18g0CYD4JiMse4zcozz2xuGPHwYWsM_DMQZLoTCWPiwfgMJZsbZf67apGgIf0FmYKV7VbIYCVuAHFDKSTarA8j8iovRCdO_thLNfm655SJqqyZ7BPvfP1x4GkW42CNypFPEA9vMCpyalRur8RCDKYQaDNMpM4-V4n_oZIpUFR3ppvQzRQue14p37-KtNFcs37hV1btpF6LliQL-4zjnay4QHo3K"/>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors z-10" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface-container-highest text-on-surface font-label-mono text-label-mono px-2 py-0.5 uppercase tracking-wider">
+            Waterproof
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono mb-1">
+<span>OUTERWEAR / TECH-NYLON</span>
+<span class="text-primary font-semibold">$480</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase tracking-tight">MODULAR BOMBER</h3>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-[#e5e3dc]">
+<div aria-label="Available Colors" class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 bg-[#121212] border border-outline" title="Pitch Black"></span>
+<span class="w-3.5 h-3.5 bg-[#4c504a] border border-outline" title="Olive Tint"></span>
+</div>
+<button class="font-label-caps text-label-caps uppercase text-primary hover:underline underline-offset-4" onclick="this.textContent = 'ADDED (1)';" type="button">
+              + Quick Add
+            </button>
+</div>
+</div>
+</article>
+<!-- Product 4 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-square w-full overflow-hidden bg-surface-container-high p-4 flex items-center justify-center">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Wide-leg pleated drape trousers in structured heavy wool blend charcoal grey with deep front pleats and fluid hem puddle over architectural shoes studio lookbook shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpZulRt6gxzi9PFUJ6HUe_nSXBDBGQG33kk2w9Tz8AXB59c1GZ7NAmslOwWqIt_wjnGFtvlXGNbTBd7NuvtNRDppaz03K4iRGVtuOei9I0V18s6o0JQqzIC-yCWkuZizUkR9TdWCLnTHIIEBBfinXNbr9bCskpPpsDrfJOQ9VlC6g0yNPMpDw4112f6O2p_hu7oBaCbL4F0wt9aN_v1A_B3qLMquolfFcUjOdXPxoU9OQKmve1obqs"/>
+<button aria-label="Save to Wishlist" class="absolute top-3 right-3 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors z-10" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<span class="absolute bottom-3 left-3 bg-surface-container-highest text-on-surface font-label-mono text-label-mono px-2 py-0.5 uppercase tracking-wider">
+            Tailored Fit
+          </span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono mb-1">
+<span>BOTTOMS / WOOL-POLY</span>
+<span class="text-primary font-semibold">$290</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase tracking-tight">WIDE DRAPE TROUSER</h3>
+</div>
+<div class="flex items-center justify-between pt-2 border-t border-[#e5e3dc]">
+<div aria-label="Available Colors" class="flex items-center gap-1.5">
+<span class="w-3.5 h-3.5 bg-[#3a3a3c] border border-outline" title="Charcoal"></span>
+<span class="w-3.5 h-3.5 bg-[#ece9e2] border border-outline" title="Bone White"></span>
+</div>
+<button class="font-label-caps text-label-caps uppercase text-primary hover:underline underline-offset-4" onclick="this.textContent = 'ADDED (1)';" type="button">
+              + Quick Add
+            </button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- SECTION 4: SHOP BY CATEGORY -->
+<section class="w-full px-gutter md:px-margin lg:px-margin-lg py-space-xl bg-surface-container-low">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg pb-space-sm border-b border-[#e5e3dc]">
+<div>
+<span class="font-label-mono text-label-mono uppercase text-on-surface-variant block mb-1">ARCHETYPES // DISCIPLINE</span>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-primary uppercase tracking-tight">CATEGORIES</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-2 md:mt-0">
+        Engineered systems designed to interact seamlessly across layers, weights, and metropolitan environments.
+      </p>
+</div>
+<!-- Asymmetrical 3-Card Layout -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 1: SNEAKERS -->
+<a class="group relative block aspect-[3/4] bg-surface-container overflow-hidden border border-[#e5e3dc]" href="#sneakers">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out grayscale group-hover:grayscale-0" data-alt="Monochromatic high-fashion footwear catalog still life showing avant-garde technical sneaker resting on raw travertine marble with sharp directional shadows and brutalist geometry" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2QAKx46XQfLnqIKf6eS7i3Er0p_t9D4uJxGOZx6VwYdLtcrY4L7RTODRdo-7DNFGkUlG82-gcUUOn1IFHxRp-4WaWtYdrj71ZmrO0M3dlyGu2y7KjYtKeLXBmdwI50EKZCebETJrsQHK5FWs9R4Dw8jOk4uXCXiDzAGcqKyIjGtz4zmEXEpDn9EUgBJ0a39ocUQNwHcNXNP8AgDlyy2sAqMZqyYfeoiBw0DWlxjMx-4U_WL_31XWQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute inset-0 p-space-md flex flex-col justify-between text-on-primary">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono tracking-widest uppercase bg-surface/20 backdrop-blur-sm px-2 py-0.5">CAT 01</span>
+<span class="font-label-mono text-label-mono">18 ITEMS</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-primary uppercase tracking-tight mb-1">SNEAKERS</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed opacity-90 mb-3">Kinetic tooling, geometric midsoles, and sculptured form.</p>
+<div class="flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider group-hover:translate-x-1 transition-transform">
+<span>Shop Now</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+<!-- Card 2: APPAREL -->
+<a class="group relative block aspect-[3/4] bg-surface-container overflow-hidden border border-[#e5e3dc]" href="#apparel">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out grayscale group-hover:grayscale-0" data-alt="Fashion model wearing oversized technical layers, structured dropped-shoulder trench coat, and wide trousers standing in concrete hallway with harsh natural daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCF9HkS6InNAsfp-mk66fqbAaaoHRPzwiNtQJy0kLVOYAZqnnzU1pbyT0eeDymYv-jG-djFsKO7_jIT0VQfhdXExuBrdHEaS95iPnPOhTrzw_k8qaX4uJen39T_CrkxdQ1KX1ZLz2Q6KeWO0lbN5RCqKS4qGb2fuZahQ5d03sabcSTm12TNxAe66Ws0aaK8p5lExkkt4_-SayQu3gvAsbfii4QaYm0CrYyKnKTiHXPvY_DKcK7kZ6XN"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute inset-0 p-space-md flex flex-col justify-between text-on-primary">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono tracking-widest uppercase bg-surface/20 backdrop-blur-sm px-2 py-0.5">CAT 02</span>
+<span class="font-label-mono text-label-mono">42 ITEMS</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-primary uppercase tracking-tight mb-1">APPAREL</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed opacity-90 mb-3">Architectural tailoring, Japanese heavyweight cottons &amp; outerwear.</p>
+<div class="flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider group-hover:translate-x-1 transition-transform">
+<span>Shop Now</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+<!-- Card 3: ACCESSORIES -->
+<a class="group relative block aspect-[3/4] bg-surface-container overflow-hidden border border-[#e5e3dc]" href="#accessories">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out grayscale group-hover:grayscale-0" data-alt="Minimalist modular leather crossbody bag with matte aluminum magnetic hardware and technical nylon strap placed on pale stone background in high-contrast editorial photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2gNZuNm40kx8D5g_4IheYaGEU9Hes5lFrWJhoFSTx0gYIHnIHlzHQgMzv0O6YRq23LwDp2nP09QZG1D7nDe9q81g1VCw7VD9WU-TFfYUSN4n5Sk7_d3D5nL_VgcJC_KXB6SWtxAKlxlXz_QEBrZ7HTmkEOfPt46dpuCVpOmgRRrAMbkb3Q1zqE0-V_UAl-fh4AjBzQGk-_MsE4x0r7PGjQ8ptTmGV4Mhc8AuCuZHsuYkN45Lk-FSa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute inset-0 p-space-md flex flex-col justify-between text-on-primary">
+<div class="flex items-center justify-between">
+<span class="font-label-mono text-label-mono tracking-widest uppercase bg-surface/20 backdrop-blur-sm px-2 py-0.5">CAT 03</span>
+<span class="font-label-mono text-label-mono">15 ITEMS</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-primary uppercase tracking-tight mb-1">ACCESSORIES</h3>
+<p class="font-body-sm text-body-sm text-primary-fixed opacity-90 mb-3">Utilitarian carry goods, full-grain leather, and cast hardware.</p>
+<div class="flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-wider group-hover:translate-x-1 transition-transform">
+<span>Shop Now</span>
+<span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- SECTION 5: FEATURED CAMPAIGN PRODUCT (Flagship Sneaker Editorial Split Section) -->
+<section class="w-full px-gutter md:px-margin lg:px-margin-lg py-space-xl bg-surface border-b border-[#e5e3dc]" id="flagship-campaign">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-gutter-lg items-center">
+<!-- Visual Column (7 Cols) -->
+<div class="lg:col-span-7 flex flex-col space-y-space-sm">
+<div class="relative aspect-[4/3] w-full bg-surface-container-high overflow-hidden border border-[#e5e3dc] group">
+<img alt="Cinematic macro view of the VANTA KINETIC-01 luxury sneaker levitating over rough travertine stone plinth showing faceted architectural sole design" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out" id="flagship-hero-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACsmJAIDYBJRgsS7Atb1ljsRCP6JSlcnAk1cAHMjOosbN0W1YytxI5ZRXLbjAZwr-5xoMM1nHZS2ZxNdekq4v6ctBHg24fCvhU_22opXWozU4j9_0njgIIWx_slMxQqOv5C0_D7m5k1DyHWWOU605OfPVgcflwjC3CPW-G1Wz3o91i3jA5uvTnrAzhFea-0pbPwzxUZ3dHKVVoolF_KmRCX3Xn39COp0qIjVP0FujNcJGmGdGH1T2c"/>
+<!-- Overlaid Controls -->
+<div class="absolute top-space-md left-space-md flex flex-col gap-2">
+<span class="px-2.5 py-1 bg-primary text-on-primary font-label-mono text-label-mono uppercase tracking-wider">
+              FLAGSHIP TOOLING // EDITION 01
+            </span>
+<span class="px-2 py-0.5 bg-surface/90 backdrop-blur-sm text-on-surface font-label-mono text-label-mono w-max">
+              WEIGHT: 430G (SZ 10)
+            </span>
+</div>
+<div class="absolute bottom-space-md right-space-md flex items-center gap-2 bg-surface/90 backdrop-blur-sm px-3 py-1.5 border border-[#e5e3dc]">
+<span class="material-symbols-outlined text-[16px] text-primary">360</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface">360° SPATIAL VIEW</span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-2">
+<div class="p-2 bg-surface-container-lowest border border-[#e5e3dc] text-center">
+<span class="font-label-mono text-label-mono text-on-surface-variant block uppercase">Sole Architecture</span>
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold">Dual-Density EVA</span>
+</div>
+<div class="p-2 bg-surface-container-lowest border border-[#e5e3dc] text-center">
+<span class="font-label-mono text-label-mono text-on-surface-variant block uppercase">Vamp Material</span>
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold">Calfskin &amp; Mesh</span>
+</div>
+<div class="p-2 bg-surface-container-lowest border border-[#e5e3dc] text-center">
+<span class="font-label-mono text-label-mono text-on-surface-variant block uppercase">Origin</span>
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold">Porto / Tokyo</span>
+</div>
+</div>
+</div>
+<!-- Narrative & Purchase Column (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col justify-center space-y-space-md">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-mono text-label-mono mb-1">
+<span>SERIES SPECIFICATION: S-01-V4</span>
+<span>•</span>
+<span class="flex items-center text-primary">
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="ml-1 font-label-mono text-label-mono text-on-surface-variant">(4.9/5 from 184 reviews)</span>
+</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary uppercase tracking-tight leading-tight">
+            VANTA KINETIC-01
+          </h2>
+<div class="font-headline-sm text-headline-sm text-primary mt-1">
+            $340 <span class="font-label-mono text-label-mono text-on-surface-variant uppercase font-normal">USD // TAXES INCL.</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Engineered from Italian off-white calfskin and technical ballistic mesh, anchored by an angular dual-density EVA sole prototyped in Tokyo. Balanced between avant-garde structural art and daily ergonomic resilience.
+        </p>
+<!-- Bullet Specs -->
+<ul class="space-y-2 py-2 border-y border-[#e5e3dc] font-body-sm text-body-sm text-on-surface">
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary"></span>
+<span>Sculptural faceted geometric sole chassis for shock distribution</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary"></span>
+<span>Hand-stitched reinforced toe cap and padded ergonomic tongue</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary"></span>
+<span>High-traction segmented rubber outsole pods for wet grip</span>
+</li>
+</ul>
+<!-- Color Selector -->
+<div>
+<div class="flex items-center justify-between text-on-surface mb-2 font-label-caps text-label-caps uppercase">
+<span>Colorway</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant" id="color-label">Chalk White / Concrete Slate (Active)</span>
+</div>
+<div class="flex items-center gap-2">
+<button aria-label="Select Chalk White" class="w-9 h-9 bg-[#f4f2eb] border border-outline ring-2 ring-primary transition-all flex items-center justify-center" onclick="document.getElementById('color-label').textContent='Chalk White / Concrete Slate'; this.parentElement.querySelectorAll('button').forEach(b =&gt; b.classList.remove('ring-2', 'ring-primary')); this.classList.add('ring-2', 'ring-primary');" type="button">
+<span class="w-1.5 h-1.5 bg-primary"></span>
+</button>
+<button aria-label="Select Carbon Slate" class="w-9 h-9 bg-[#4a4a48] border border-outline transition-all" onclick="document.getElementById('color-label').textContent='Carbon Slate / Obsidian'; this.parentElement.querySelectorAll('button').forEach(b =&gt; b.classList.remove('ring-2', 'ring-primary')); this.classList.add('ring-2', 'ring-primary');" type="button"></button>
+<button aria-label="Select Raw Clay" class="w-9 h-9 bg-[#c5bcb1] border border-outline transition-all" onclick="document.getElementById('color-label').textContent='Raw Clay / Desert Mineral'; this.parentElement.querySelectorAll('button').forEach(b =&gt; b.classList.remove('ring-2', 'ring-primary')); this.classList.add('ring-2', 'ring-primary');" type="button"></button>
+</div>
+</div>
+<!-- Size Selector -->
+<div>
+<div class="flex items-center justify-between text-on-surface mb-2 font-label-caps text-label-caps uppercase">
+<span>Select Size (US MENS)</span>
+<a class="text-on-surface-variant hover:text-primary underline font-label-mono text-label-mono" href="#">Size Matrix Guide</a>
+</div>
+<div class="grid grid-cols-7 gap-1.5" id="size-matrix">
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors" type="button">US 7</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors" type="button">US 8</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors" type="button">US 9</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono bg-primary text-on-primary border border-primary font-bold" type="button">US 10</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors relative" type="button">
+              US 11
+              <span class="absolute -top-1 -right-1 w-2 h-2 bg-error rounded-full" title="Low Stock"></span>
+</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors" type="button">US 12</button>
+<button class="py-2.5 text-center font-label-mono text-label-mono border border-[#e5e3dc] hover:border-primary transition-colors opacity-40 cursor-not-allowed line-through" disabled="" type="button">US 13</button>
+</div>
+<span class="block mt-1 font-label-mono text-label-mono text-error">● US 11: Only 3 pairs remaining in archive inventory</span>
+</div>
+<!-- Call to Action Buttons -->
+<div class="space-y-2 pt-2">
+<button class="w-full bg-primary text-on-primary py-4 font-label-caps text-label-caps uppercase hover:bg-surface-container-lowest hover:text-primary hover:border hover:border-primary transition-all flex items-center justify-center gap-2" id="add-bag-btn" onclick="this.textContent = 'ADDED TO BAG — PROCEED (1)';" type="button">
+<span>Add to Bag — $340</span>
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+</button>
+<a class="w-full block text-center py-3 font-label-caps text-label-caps uppercase text-on-surface hover:text-primary transition-colors border border-dashed border-[#e5e3dc]" href="#">
+            Book Studio Fitting // London &amp; New York Showrooms
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: BRAND MANIFESTO STATEMENT -->
+<section class="w-full px-gutter md:px-margin lg:px-margin-lg py-space-xl bg-surface-container-lowest relative overflow-hidden">
+<div class="max-w-4xl mx-auto text-center space-y-space-md relative z-10">
+<div class="inline-flex items-center gap-3">
+<span class="h-px w-8 bg-primary"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-widest text-on-surface">Architectural Philosophy</span>
+<span class="h-px w-8 bg-primary"></span>
+</div>
+<h2 class="font-display-hero text-display-hero-mobile md:text-display-hero text-primary uppercase tracking-tighter leading-none">
+        LESS NOISE.<br/>
+        MORE YOU.
+      </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
+        VANTA creates everyday pieces designed around movement, simplicity, and personal style. We reject disposable trends in pursuit of timeless architectural silhouettes crafted to last a lifetime.
+      </p>
+<div class="pt-space-md grid grid-cols-2 sm:grid-cols-4 gap-gutter border-t border-[#e5e3dc] max-w-3xl mx-auto">
+<div class="text-left">
+<span class="font-headline-sm text-headline-sm text-primary block">01</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Pure Ergonomics</span>
+</div>
+<div class="text-left">
+<span class="font-headline-sm text-headline-sm text-primary block">02</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Traceable Mills</span>
+</div>
+<div class="text-left">
+<span class="font-headline-sm text-headline-sm text-primary block">03</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Monochrome Discipline</span>
+</div>
+<div class="text-left">
+<span class="font-headline-sm text-headline-sm text-primary block">04</span>
+<span class="font-label-caps text-label-caps uppercase text-on-surface-variant">Lifelong Repair</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: TRENDING PRODUCTS -->
+<section class="w-full px-gutter md:px-margin lg:px-margin-lg py-space-xl bg-surface">
+<!-- Header with Filter Tabs -->
+<div class="flex flex-col md:flex-row md:items-end justify-between pb-space-md border-b border-[#e5e3dc] gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-mono text-label-mono uppercase text-on-surface-variant block mb-1">ARCHIVE RELEASES // POPULAR DEMAND</span>
+<h2 class="font-headline-lg text-headline-md sm:text-headline-lg text-primary uppercase tracking-tight">TRENDING IN THE ARCHIVE</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Most coveted silhouettes this week based on global showroom velocity.</p>
+</div>
+<!-- Filter Pills -->
+<div class="flex items-center gap-1.5 flex-wrap">
+<button class="px-3 py-1 font-label-caps text-label-caps uppercase bg-primary text-on-primary" type="button">All</button>
+<button class="px-3 py-1 font-label-caps text-label-caps uppercase bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" type="button">Footwear</button>
+<button class="px-3 py-1 font-label-caps text-label-caps uppercase bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" type="button">Jackets</button>
+<button class="px-3 py-1 font-label-caps text-label-caps uppercase bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors" type="button">Heavy Knits</button>
+</div>
+</div>
+<!-- 4-Column Balanced Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Trend 1 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-[4/5] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Editorial lookbook shoe photograph of the VANTA Kinetic 02 runner sneaker featuring dark graphite knit and angular aggressive sole in architectural low angle view" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDkIkgLaOCWL14fEI71kDth74mYn7By0OSeFAETr2-OSsfhiH3aTsuowa2C73gFtDt2dsKnS1TbiWHv8tMgfnRfJgSJfOv810zkMAwm3CJi_-hb-jP-ZUqYt57CwjxTca1pN5eV4l_ujLsr5E2XNOUenBBbkHj8rHlwhDYehIfcQvUyoZ8uf4pHNH9SwAeLYEiuTipSCVM9NDXO8FPGSgJ51atEh1crB2HCTAmv8xTYeMnYxymY6RR"/>
+<div class="absolute top-2 left-2 bg-primary text-on-primary font-label-mono text-label-mono px-2 py-0.5 uppercase">
+            RESTOCK
+          </div>
+<button aria-label="Save to Wishlist" class="absolute top-2 right-2 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant mb-1">
+<span>FOOTWEAR</span>
+<span class="text-primary font-semibold">$360</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase">KINETIC-02 RUNNER</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Off-Black &amp; Slate</p>
+</div>
+<button class="w-full py-2.5 font-label-caps text-label-caps uppercase border border-outline hover:border-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="this.textContent = 'ADDED TO CART';" type="button">
+            + Quick Add
+          </button>
+</div>
+</article>
+<!-- Trend 2 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-[4/5] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavyweight double-layer luxury boxy t-shirt in chalk off-white modeled against minimal textured concrete background with high-fashion relaxed silhouette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkZJx7XNPtdc2YCrc9AMJwhTac8V2tbh7ljRWE31xEfQG6Ty93Ydnq8_LrSoV2C-vt8G4WDlOoTlcOCf6E4-hvOku23Q1Mol6_Rz1Y9xOgeh59wAEubqCXAxctpKRkGQgu8jThcES03rew79S1IzP3pVHs0IqhKjGLpwyK95LFtq00tfATzsy_RM9ZuEVkVXMxeArE6duhCHA5j4z9TaBc_degi9Phg0rQBNEHzPbo1jmOqmidgSG6"/>
+<div class="absolute top-2 left-2 bg-surface-container-highest text-on-surface font-label-mono text-label-mono px-2 py-0.5 uppercase">
+            300 GSM
+          </div>
+<button aria-label="Save to Wishlist" class="absolute top-2 right-2 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant mb-1">
+<span>TOPS</span>
+<span class="text-primary font-semibold">$110</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase">DOUBLE-LAYER BOXY TEE</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Chalk White</p>
+</div>
+<button class="w-full py-2.5 font-label-caps text-label-caps uppercase border border-outline hover:border-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="this.textContent = 'ADDED TO CART';" type="button">
+            + Quick Add
+          </button>
+</div>
+</article>
+<!-- Trend 3 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-[4/5] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Avant-garde articulated technical shell jacket with asymmetrical storm flap and matte taped seams in raven black against pale brutalist wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjdZCZ5pHRuStHf5iThm4EEMfYzRQmlgsw3pMfytTUr2frwextpbsbkTIZT5FgQtFxs3Itm7_bg9BMG4Frdk7FBBmbB3mray8bzw3Bj3JhuXSrkZ2ZBIKrcJ4siaDaf5qM8XlduWJDLkeZ8PlekjpgIhuO4Rsjy05cSFm6msphjx8Lv35_dm3YqFqQUsUDk38DQowyBsmNvAWrJJiLv2jBvJEAptleE0H9QELaT_PTpUH7EwYkD3j0"/>
+<div class="absolute top-2 left-2 bg-primary text-on-primary font-label-mono text-label-mono px-2 py-0.5 uppercase">
+            3-LAYER SHELL
+          </div>
+<button aria-label="Save to Wishlist" class="absolute top-2 right-2 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant mb-1">
+<span>OUTERWEAR</span>
+<span class="text-primary font-semibold">$520</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase">ARTICULATED SHELL</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Raven Black</p>
+</div>
+<button class="w-full py-2.5 font-label-caps text-label-caps uppercase border border-outline hover:border-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="this.textContent = 'ADDED TO CART';" type="button">
+            + Quick Add
+          </button>
+</div>
+</article>
+<!-- Trend 4 -->
+<article class="group relative flex flex-col bg-surface-container-lowest border border-[#e5e3dc] hover:border-primary transition-all duration-300">
+<div class="relative aspect-[4/5] w-full overflow-hidden bg-surface-container-high">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxury architectural leather mini sling pouch bag in natural raw matte black leather with silver hardware lying on raw architectural stone pedestal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDekdSjluYLeW8auGm2GF3mKEsPE9RS9Kd3SflhbCjxErd_vm3PjRpjkDYCMuUn1XNkF33ptlbgzi5kw2hFRUiY3nurzF0gADvnzLtYcS08cvrzOAcOOpTQL9c5hoL9EK38RhXYjr6Lv4rYPUqwFzTcAjkFQRsLQqAF63DF7MnV_cTBwi7tepoi-MBBHuWiY_0mFgjOlLNGJE0zLuHBQjKJ0-eJGfyCq1ClWSyXMWgPTjXZdaZACkU-"/>
+<div class="absolute top-2 left-2 bg-surface-container-highest text-on-surface font-label-mono text-label-mono px-2 py-0.5 uppercase">
+            FULL GRAIN
+          </div>
+<button aria-label="Save to Wishlist" class="absolute top-2 right-2 p-1.5 bg-surface text-on-surface hover:text-primary transition-colors" onclick="this.classList.toggle('text-error')" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant mb-1">
+<span>LEATHER GOODS</span>
+<span class="text-primary font-semibold">$185</span>
+</div>
+<h3 class="font-headline-sm text-body-lg font-semibold text-primary uppercase">SLING POUCH 0.5L</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Raw Matte Leather</p>
+</div>
+<button class="w-full py-2.5 font-label-caps text-label-caps uppercase border border-outline hover:border-primary hover:bg-primary hover:text-on-primary transition-colors" onclick="this.textContent = 'ADDED TO CART';" type="button">
+            + Quick Add
+          </button>
+</div>
+</article>
+</div>
+</section>
+<!-- SECTION 8: EDITORIAL NEWSLETTER SECTION (Inverted Monolith Block) -->
+<section class="w-full bg-[#121212] text-on-primary py-space-xl px-gutter md:px-margin lg:px-margin-lg">
+<div class="max-w-4xl mx-auto flex flex-col items-center text-center space-y-space-md">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 bg-on-primary"></span>
+<span class="font-label-mono text-label-mono tracking-widest text-[#a8a6a1] uppercase">DISPATCH TERMINAL // MEMBERSHIP</span>
+<span class="w-2 h-2 bg-on-primary"></span>
+</div>
+<h2 class="font-display-hero text-headline-lg-mobile md:text-headline-lg uppercase text-on-primary tracking-tight">
+        STAY IN THE LOOP.
+      </h2>
+<p class="font-body-lg text-body-lg text-[#ccc6b9] max-w-xl">
+        Receive early access to limited edition drops, secret lookbooks, and private studio events in Tokyo, London, and New York. Never spam — only architectural design.
+      </p>
+<form class="w-full max-w-md flex flex-col sm:flex-row gap-2 pt-2" onsubmit="event.preventDefault(); this.innerHTML='&lt;div class=\'py-3 px-4 bg-[#232323] text-on-primary font-label-caps uppercase tracking-wider text-center w-full\'&gt;TRANSMISSION CONFIRMED — ARCHIVE PASS ISSUED.&lt;/div&gt;';">
+<input class="flex-1 bg-[#1a1a1a] text-on-primary placeholder:text-[#747878] border border-[#2f312f] px-4 py-3.5 font-label-mono text-label-mono focus:outline-none focus:border-on-primary" placeholder="ENTER YOUR EMAIL ADDRESS..." required="" type="email"/>
+<button class="bg-on-primary text-primary px-space-lg py-3.5 font-label-caps text-label-caps uppercase hover:bg-surface-container-highest transition-colors font-bold tracking-wider" type="submit">
+          Subscribe
+        </button>
+</form>
+<p class="font-label-mono text-label-mono text-[#888378] tracking-wider pt-2">
+        BY SUBSCRIBING YOU AGREE TO OUR TERMS AND RECEIVE DROP NOTICES PRIOR TO GLOBAL PUBLIC ACCESS.
+      </p>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low border-t border-[#e5e3dc] pt-space-xl pb-space-lg"><div class="w-full px-gutter md:px-margin lg:px-margin-lg"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter lg:gap-gutter-lg pb-space-xl border-b border-[#e5e3dc]"><div class="md:col-span-4 flex flex-col justify-between pr-0 lg:pr-space-lg"><div class="space-y-space-md"><span class="font-headline-sm text-headline-sm text-primary tracking-tight uppercase block">VANTA</span><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">VANTA creates everyday pieces designed around movement, simplicity, and personal architectural style.</p></div><div class="pt-space-lg"><p class="font-label-caps text-label-caps uppercase text-on-surface mb-space-xs">Editorial Gazette</p><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Archive drops, releases, and spatial studies directly to your terminal.</p><div class="flex max-w-sm"><input class="w-full bg-surface-container-lowest border border-[#e5e3dc] px-3 py-2 font-label-mono text-label-mono text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:border-primary" placeholder="EMAIL ADDRESS" type="email"/><button class="bg-primary text-on-primary px-space-md font-label-caps text-label-caps uppercase hover:bg-surface-container-lowest hover:text-primary hover:border hover:border-primary transition-colors" type="button">Join</button></div></div></div><div class="md:col-span-8 grid grid-cols-2 sm:grid-cols-4 gap-gutter"><div class="space-y-space-md"><span class="font-label-caps text-label-caps uppercase text-on-surface tracking-wider block">Shop</span><ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" data-path="shop" href="#">Footwear</a></li><li><a class="hover:text-on-surface transition-colors" data-path="shop" href="#">Outerwear</a></li><li><a class="hover:text-on-surface transition-colors" data-path="shop" href="#">Tops</a></li><li><a class="hover:text-on-surface transition-colors" data-path="shop" href="#">Bottoms</a></li><li><a class="hover:text-on-surface transition-colors" data-path="accessories" href="#">Objects</a></li></ul></div><div class="space-y-space-md"><span class="font-label-caps text-label-caps uppercase text-on-surface tracking-wider block">Customer Care</span><ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" data-path="customer-care" href="#">Order Status</a></li><li><a class="hover:text-on-surface transition-colors" data-path="customer-care" href="#">Shipping &amp; Returns</a></li><li><a class="hover:text-on-surface transition-colors" data-path="customer-care" href="#">Size Guide</a></li><li><a class="hover:text-on-surface transition-colors" data-path="customer-care" href="#">Contact</a></li><li><a class="hover:text-on-surface transition-colors" data-path="customer-care" href="#">Sustainability</a></li></ul></div><div class="space-y-space-md"><span class="font-label-caps text-label-caps uppercase text-on-surface tracking-wider block">About</span><ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Philosophy</a></li><li><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Lookbooks</a></li><li><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Archive</a></li><li><a class="hover:text-on-surface transition-colors" data-path="about" href="#">Careers</a></li></ul></div><div class="space-y-space-md"><span class="font-label-caps text-label-caps uppercase text-on-surface tracking-wider block">Network</span><ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" href="#">Instagram</a></li><li><a class="hover:text-on-surface transition-colors" href="#">TikTok</a></li><li><a class="hover:text-on-surface transition-colors" href="#">Spotify</a></li><li><a class="hover:text-on-surface transition-colors" href="#">X</a></li></ul></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md font-label-mono text-label-mono text-on-surface-variant"><p>© 2025 VANTA STUDIO ARCHIVE INC. ALL RIGHTS RESERVED.</p><div class="flex items-center gap-space-lg font-label-caps text-label-caps uppercase"><span>Built for your everyday.</span><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Service</a><a class="hover:text-on-surface transition-colors" href="#">Accessibility</a></div></div></div></footer></body></html>

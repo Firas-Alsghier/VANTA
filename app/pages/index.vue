@@ -1,9 +1,20 @@
-<script setup></script>
+<script setup>
+useSeoMeta({
+  title: 'VANTA — Built for your everyday',
+  description:
+    'VANTA creates everyday pieces designed around movement, simplicity, and personal style.',
+});
+</script>
 
 <template>
-  <div>
-    <h1 class="text-3xl font-bold underline bg-red-500">Hello, World!</h1>
+  <div class="flex flex-col w-full">
+    <HeroSection />
+    <AnnouncementBar />
+    <NewArrivalsSection />
+    <CategorySection />
+    <FeaturedProductSection />
+    <BrandManifesto />
+    <TrendingSection />
+    <NewsletterSection />
   </div>
 </template>
-
-<style scoped></style>
